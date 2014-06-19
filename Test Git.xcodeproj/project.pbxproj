@@ -21,6 +21,7 @@
 		99648B1019416D7200DA39A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99648AF219416D7200DA39A3 /* UIKit.framework */; };
 		99648B1819416D7300DA39A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99648B1619416D7200DA39A3 /* InfoPlist.strings */; };
 		99648B1A19416D7300DA39A3 /* Test_GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99648B1919416D7300DA39A3 /* Test_GitTests.m */; };
+		99648B25195284AE00DA39A3 /* TLSCommitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 99648B24195284AE00DA39A3 /* TLSCommitClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		99648B1519416D7200DA39A3 /* Test GitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test GitTests-Info.plist"; sourceTree = "<group>"; };
 		99648B1719416D7200DA39A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99648B1919416D7300DA39A3 /* Test_GitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_GitTests.m; sourceTree = "<group>"; };
+		99648B23195284AE00DA39A3 /* TLSCommitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSCommitClass.h; sourceTree = "<group>"; };
+		99648B24195284AE00DA39A3 /* TLSCommitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSCommitClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				99648B0419416D7200DA39A3 /* TLSViewController.m */,
 				99648B0619416D7200DA39A3 /* Images.xcassets */,
 				99648AF519416D7200DA39A3 /* Supporting Files */,
+				99648B23195284AE00DA39A3 /* TLSCommitClass.h */,
+				99648B24195284AE00DA39A3 /* TLSCommitClass.m */,
 			);
 			path = "Test Git";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99648B0519416D7200DA39A3 /* TLSViewController.m in Sources */,
+				99648B25195284AE00DA39A3 /* TLSCommitClass.m in Sources */,
 				99648AFF19416D7200DA39A3 /* TLSAppDelegate.m in Sources */,
 				99648AFB19416D7200DA39A3 /* main.m in Sources */,
 			);
